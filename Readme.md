@@ -21,7 +21,7 @@ This package depends on `node-hid` which requires native compilation.
 **Recommended installation command:**
 
 ```bash
-npm install @thalaguer/buzzer --ignore-scripts
+npm install @thalaguer/buzzer
 ```
 
 ## Usage
