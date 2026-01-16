@@ -1,0 +1,44 @@
+# .gitignore
+
+# Node.js / npm
+node_modules/
+npm-debug.log
+yarn-error.log
+#package-lock.json
+.pnpm-lock.yaml
+
+# Build / dist folders 
+dist/
+build/
+
+# Logs & temporary files
+*.log
+*.logs
+*.log.*
+.DS_Store
+Thumbs.db
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Testing / coverage
+coverage/
+.nyc_output/
+
+# OS generated files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Temporary / backup files
+*~
+*.swp
+*.bak
+*.tmp
+
+# Keep source code visible
+!src/
+!index.js

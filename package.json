@@ -1,0 +1,52 @@
+{
+  "name": "@thalaguer/buzzer",
+  "version": "1.0.0",
+  "description": "Node.js driver for Sony Buzz! wireless controllers (PS2/PS3 quiz buzzers) using HID/USB",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "node-hid": "^3.2.0",
+    "usb": "^2.16.0"
+  },
+  "keywords": [
+    "buzz",
+    "buzzer",
+    "ps2",
+    "ps3",
+    "playstation",
+    "hid",
+    "usb",
+    "node-hid",
+    "game-controller",
+    "quiz-controller"
+  ],
+  "author": "Thalaguer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thalaguer/buzzer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thalaguer/buzzer/issues"
+  },
+  "homepage": "https://github.com/thalaguer/buzzer#readme",
+  "files": [
+    "index.js",
+    "src/**/*.js",
+    "!**/*.test.js",
+    "!**/__tests__/**",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "echo \"No tests yet – coming soon!\" && exit 0",
+    "prepublishOnly": "npm run lint && npm run test",
+    "lint": "echo \"Add eslint/prettier later\" && exit 0"
+  }
+}
